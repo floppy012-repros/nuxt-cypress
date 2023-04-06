@@ -1,0 +1,31 @@
+{
+    // https://nuxt.com/docs/guide/concepts/typescript
+    "extends": "./.nuxt/tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "module": "ESNext",
+        "target": "ES2016",
+        "useDefineForClassFields": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "incremental": false,
+        "skipLibCheck": true,
+        "jsx": "preserve",
+        "sourceMap": false,
+        "resolveJsonModule": true,
+        "noUnusedLocals": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "lib": ["DOM", "ESNext", "dom.iterable", "scripthost"],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "types": ["vite/client"]
+    },
+    "vueCompilerOptions": {
+        "skipTemplateCodegen": true
+    },
+    "exclude": ["dist", "vendor", "node_modules", "cypress.config.ts", "tests/Cypress"]
+}
