@@ -1,5 +1,7 @@
 # Nuxt3 Cypress Minimal Repro
 
+Rel: https://github.com/nuxt/nuxt/discussions/19304#discussioncomment-5539280
+
 ## With `type: module`
 
 `yarn cypress` works
